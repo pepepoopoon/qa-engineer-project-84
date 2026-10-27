@@ -1,14 +1,16 @@
 ---
 - summary: Успешный поиск товара по ключевому слову
   status: pass
+- summary: Поиск товара за пределами первой страницы каталога
+  status: fail
 - summary: Поиск несуществующего товара
   status: pass
 - summary: Фильтрация товаров по бренду
-  status: pass
+  status: fail
 - summary: Фильтрация товаров по диапазону цен
   status: fail
 - summary: Одновременная фильтрация по нескольким условиям
-  status: pass
+  status: fail
 - summary: Просмотр подробной информации о товаре
   status: pass
 - summary: Успешное добавление товара в корзину
@@ -23,3 +25,33 @@
   status: pass
 - summary: Сохранение корзины при переключении языка
   status: pass
+- summary: Отображение информации о товарах в каталоге
+  status: pass
+- summary: Фильтрация товаров по категории
+  status: fail
+- summary: Фильтрация товаров по наличию
+  status: fail
+- summary: Полная очистка корзины
+  status: pass
+- summary: Навигация между страницами каталога
+  status: pass
+- summary: Переход в категорию по хэштегу товара
+  status: fail
+- summary: Переход к оформлению заказа
+  status: fail
+- summary: Проверка оплаты при оформлении заказа
+  status: fail
+- summary: Закрытие окна оформления заказа
+  status: pass
+- summary: Продолжение выбора товаров после перехода в корзину
+  status: pass
+- summary: Переключение языка интерфейса
+  status: pass
+- summary: Проверка загрузки ресурсов и сетевых запросов
+  status: pass
+- summary: Проверка работы интернет-магазина в Safari
+  status: pass
+- summary: Проверка отображения интернет-магазина в эмуляции мобильного устройства
+  status: fail
+- summary: Проверка кликабельной области карточки товара
+  status: fail
