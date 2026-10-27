@@ -26,13 +26,13 @@
 - summary: Сохранение корзины при переключении языка
   status: pass
 - summary: Отображение информации о товарах в каталоге
-  status: pass
+  status: fail
 - summary: Фильтрация товаров по категории
   status: fail
 - summary: Фильтрация товаров по наличию
   status: fail
 - summary: Полная очистка корзины
-  status: pass
+  status: fail
 - summary: Навигация между страницами каталога
   status: pass
 - summary: Переход в категорию по хэштегу товара
@@ -42,7 +42,7 @@
 - summary: Проверка оплаты при оформлении заказа
   status: fail
 - summary: Закрытие окна оформления заказа
-  status: pass
+  status: fail
 - summary: Продолжение выбора товаров после перехода в корзину
   status: pass
 - summary: Переключение языка интерфейса
