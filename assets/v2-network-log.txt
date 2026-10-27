@@ -1,0 +1,23 @@
+Дата: 27.10.2026. Приложение: https://products-store-v2.hexlet.app/ (version 2).
+ОС: macOS. Браузер: Google Chrome 155. Наблюдение в Chrome DevTools.
+
+Загрузка каталога и карточки товара:
+GET https://products-store-v2.hexlet.app/api/products?skip=0 -> 200 OK
+GET https://products-store-v2.hexlet.app/api/products/4 -> 200 OK
+Content-Type: application/json; charset=utf-8
+Response товара: id 4, title Red Lipstick, price 12.99,
+discountPercentage 12.16, rating 4.36, stock 91.
+На странице товара отображаются Red Lipstick, рейтинг 4.36, цены 12.99 $ / 11.41 $.
+Ресурсы каталога загружены; наблюдались 200 и корректные 304 Not Modified.
+После поиска lipstick и открытия товара ошибок JavaScript в Console не было.
+
+Отдельная проверка Checkout:
+POST https://products-store-v2.hexlet.app/api/orders -> 500 Internal Server Error
+Response: {"message":"Failed to create order","statusCode":500}
+Console: Failed to load resource: the server responded with a status of 500 ()
+Console: POST https://products-store-v2.hexlet.app/api/orders 500 (Internal Server Error)
+UI: окно Order placed successfully со списком товаров и кнопкой Close.
+Перехода к оплате нет. Сохранение заказа на сервере не подтверждено.
+
+Текст составлен по просмотренным Headers, Response и Console;
+это выдержка наблюдений, а не экспорт HAR. Учётные данные не включены.
