@@ -82,7 +82,7 @@ bugreports:
   - summary: |
       При активном поиске или фильтре исчезает переход к другим страницам каталога
     environment: |
-      Приложение: https://products-store-v2.hexlet.app/ (version 2)
+      Приложение: https://products-store-v2.hexlet.app/
       Браузер: Google Chrome
       ОС: macOS
     steps-to-reproduce: |
@@ -109,7 +109,7 @@ bugreports:
   - summary: |
       В мобильном каталоге недоступны поиск и фильтры
     environment: |
-      Приложение: https://products-store-v2.hexlet.app/ (version 2)
+      Приложение: https://products-store-v2.hexlet.app/
       Браузер: Google Chrome
       ОС: macOS
       Устройство: эмуляция iPhone 16, viewport 393 x 852
