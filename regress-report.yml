@@ -75,17 +75,16 @@ bugreports:
       После ввода несуществующего названия каталог
       продолжает отображать товары, не соответствующие запросу.
       Сообщение об отсутствии результатов не появляется.
-      Скриншот: assets/search-nonexistent-product-bug.png
-      Повторно подтверждено 27.10.2026 в Chromium.
-      Дополнительный скриншот: assets/v2-search-nonexistent.jpg
+      Скриншоты:
+      - assets/search-nonexistent-product-bug.png
+      - assets/v2-search-nonexistent.jpg
 
   - summary: |
       При активном поиске или фильтре исчезает переход к другим страницам каталога
     environment: |
       Приложение: https://products-store-v2.hexlet.app/ (version 2)
-      Браузер: Chromium
+      Браузер: Google Chrome
       ОС: macOS
-      Дата проверки: 27.10.2026
     steps-to-reproduce: |
       1. Открыть каталог, оставить In Stock включённым, очистить остальные условия
       2. Нажать Next дважды и убедиться, что на третьей странице есть Plate
@@ -111,10 +110,9 @@ bugreports:
       В мобильном каталоге недоступны поиск и фильтры
     environment: |
       Приложение: https://products-store-v2.hexlet.app/ (version 2)
-      Браузер: Google Chrome 155, Chrome DevTools
+      Браузер: Google Chrome
       ОС: macOS
-      Устройство: эмуляция iPhone 16, viewport 393 x 852, не физический телефон
-      Дата проверки: 27.10.2026
+      Устройство: эмуляция iPhone 16, viewport 393 x 852
     steps-to-reproduce: |
       1. Открыть каталог в Chrome
       2. В DevTools включить эмуляцию iPhone 16 (393 x 852)
