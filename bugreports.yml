@@ -120,7 +120,6 @@
     Приложение: https://products-store.hexlet.app/
     Браузер: Google Chrome
     ОС: macOS
-    Режим: обычный десктопный (также наблюдалось в эмуляции iPhone 16)
   steps-to-reproduce: |
     1. Добавить один или несколько товаров в корзину
     2. Открыть корзину
@@ -161,9 +160,9 @@
     Интерфейс магазина некорректно отображается на мобильном экране
   environment: |
     Приложение: https://products-store.hexlet.app/
-    Браузер: Google Chrome, DevTools
+    Браузер: Google Chrome
     ОС: macOS
-    Устройство: эмуляция iPhone 16 (393 x 852), не физический телефон
+    Устройство: эмуляция iPhone 16 (393 x 852)
   steps-to-reproduce: |
     1. Открыть каталог интернет-магазина в Google Chrome
     2. В DevTools включить эмуляцию iPhone 16 с размером экрана 393 x 852
@@ -206,10 +205,9 @@
 - summary: |
     В карточках каталога отсутствует предусмотренный требованиями рейтинг
   environment: |
-    Приложение: https://products-store.hexlet.app/ (version 1)
-    Браузер: Chromium
+    Приложение: https://products-store.hexlet.app/
+    Браузер: Google Chrome
     ОС: macOS
-    Дата проверки: 27.10.2026
   steps-to-reproduce: |
     1. Открыть первую страницу каталога
     2. Осмотреть карточку Essence Mascara Lash Princess
@@ -227,10 +225,9 @@
 - summary: |
     Крестик в правом верхнем углу окна заказа не закрывает окно
   environment: |
-    Приложение: https://products-store.hexlet.app/ (version 1)
-    Браузер: Chromium
+    Приложение: https://products-store.hexlet.app/
+    Браузер: Google Chrome
     ОС: macOS
-    Дата проверки: 27.10.2026
   steps-to-reproduce: |
     1. Добавить Essence Mascara Lash Princess в корзину
     2. Открыть корзину и нажать Checkout
@@ -245,10 +242,9 @@
 - summary: |
     После Clear cart удалённые товары возвращаются при обновлении страницы
   environment: |
-    Приложение: https://products-store.hexlet.app/ (version 1)
-    Браузер: Chromium
+    Приложение: https://products-store.hexlet.app/ 
+    Браузер: Google Chrome
     ОС: macOS
-    Дата проверки: 27.10.2026
   steps-to-reproduce: |
     1. Добавить Essence Mascara Lash Princess в пустую корзину
     2. Открыть корзину, убедиться в наличии товара и сумме 8.94 $
