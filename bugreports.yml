@@ -220,7 +220,7 @@
     В каталоге отображаются название, описание, цены и остаток 99,
     но рейтинг отсутствует. На странице того же товара указан Rating: 2.56.
     Рейтинг также отсутствует в других карточках первой страницы.
-    Скриншоты: assets/v1-catalog-rating-missing.jpg, assets/v1-product-rating.jpg
+    Скриншоты: assets/v1-catalog-rating-missing.png, assets/v1-product-rating.png
 
 - summary: |
     Крестик в правом верхнем углу окна заказа не закрывает окно
@@ -237,7 +237,7 @@
   actual-result: |
     После нажатия крестика окно остаётся открытым.
     Нижняя кнопка Close закрывает окно.
-    Скриншот: assets/v1-checkout-close-x.jpg
+    Скриншот: assets/v1-checkout-close-x.png
 
 - summary: |
     После Clear cart удалённые товары возвращаются при обновлении страницы
@@ -257,4 +257,4 @@
   actual-result: |
     Сразу после Clear cart корзина пуста и сумма равна 0.00 $.
     После обновления возвращается Mascara, счётчик 1 и сумма 8.94 $.
-    Скриншот: assets/v1-clear-cart-after-reload.jpg
+    Скриншот: assets/v1-clear-cart-after-reload.png

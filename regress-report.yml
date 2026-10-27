@@ -77,7 +77,7 @@ bugreports:
       Сообщение об отсутствии результатов не появляется.
       Скриншоты:
       - assets/search-nonexistent-product-bug.png
-      - assets/v2-search-nonexistent.jpg
+      - assets/v2-search-nonexistent.png
 
   - summary: |
       При активном поиске или фильтре исчезает переход к другим страницам каталога
@@ -104,7 +104,7 @@ bugreports:
       навигация также исчезает. То же наблюдается с диапазоном 10–50.
       В Version 1 при активном поиске пользователь мог листать исходные страницы.
       Это ухудшение существующего дефекта формирования выдачи, а не сброс фильтра.
-      Скриншот: assets/v2-search-plate-no-pagination.jpg
+      Скриншот: assets/v2-search-plate-no-pagination.png
 
   - summary: |
       В мобильном каталоге недоступны поиск и фильтры
